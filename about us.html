@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Blog</title>
+    <link rel="stylesheet" href="style3.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Category</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="hero-section">
+            <div class="hero-content">
+                <h1>About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In laboriosam fuga dolorum ab distinctio
+                    molestiae.</p>
+            </div>
+            <img src="https://via.placeholder.com/1200x600" alt="travel" class="hero-image" />
+        </div>
+
+        <div class="page-wrapper">
+            <div class="upload-section">
+                <h2>Create New Post</h2>
+                <div class="upload-container">
+                    <form action="">
+                        <div class="upload-form">
+                            <div class="form-group">
+                                <label>Post Title</label>
+                                <input type="text" placeholder="Enter your post title..." />
+                            </div>
+                            <div class="form-group">
+                                <label>Category</label>
+                                <select>
+                                    <option>Travel</option>
+                                    <option>Adventure</option>
+                                    <option>Lifestyle</option>
+                                    <option>Food</option>
+                                    <option>Photography</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Content</label>
+                                <textarea rows="10" placeholder="Write your content here..."></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label>Upload Featured Image</label>
+                                <input type="file" accept="image/*" />
+                            </div>
+                        </div>
+                        <div class="form-actions">
+                            <button>Publish Post</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-wrapper">
+            <div class="cards-container">
+                <div class="card">
+                    <img src="https://via.placeholder.com/400" alt="post image" class="card-image" />
+                    <div class="card-content">
+                        <h3 class="card-title">Post Title</h3>
+                        <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+                            nec libero.</p>
+                        <button class="delete-btn">Delete</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/400" alt="post image" class="card-image" />
+                    <div class="card-content">
+                        <h3 class="card-title">Post Title</h3>
+                        <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+                            nec libero.</p>
+                        <button class="delete-btn">Delete</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/400" alt="post image" class="card-image" />
+                    <div class="card-content">
+                        <h3 class="card-title">Post Title</h3>
+                        <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+                            nec libero.</p>
+                        <button class="delete-btn">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="page-wrapper">
+            <div class="cards-container">
+                <div class="card">
+                    <img src="https://via.placeholder.com/400" alt="post image" class="card-image" />
+                    <div class="card-content">
+                        <h3 class="card-title">Post Title</h3>
+                        <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+                            nec libero.</p>
+                        <button class="delete-btn">Delete</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/400" alt="post image" class="card-image" />
+                    <div class="card-content">
+                        <h3 class="card-title">Post Title</h3>
+                        <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+                            nec libero.</p>
+                        <button class="delete-btn">Delete</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/400" alt="post image" class="card-image" />
+                    <div class="card-content">
+                        <h3 class="card-title">Post Title</h3>
+                        <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+                            nec libero.</p>
+                        <button class="delete-btn">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Travel-Blog</p>
+        <ul class="footer-list">
+            <li>LIFESTYLE</li>
+            <li>MOMENTS</li>
+            <li>ADVENTURE</li>
+            <li>EXPLORE</li>
+            <li>VACATION</li>
+        </ul>
+    </footer>
+
+    <script>
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 50) {
+                document.body.classList.add("scrolled");
+            } else {
+                document.body.classList.remove("scrolled");
+            }
+        });
+    </script>
+</body>
+
+</html>
